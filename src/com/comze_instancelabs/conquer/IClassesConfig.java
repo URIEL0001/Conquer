@@ -24,6 +24,14 @@ public class IClassesConfig extends ClassesConfig {
 		this.getConfig().addDefault("config.kits.pro.requires_permission", false);
 		this.getConfig().addDefault("config.kits.pro.money_amount", 100);
 		this.getConfig().addDefault("config.kits.pro.permission_node", "minigames.kits.pro");
+		
+		this.getConfig().addDefault("config.kits.ultra.name", "Ultra");
+		this.getConfig().addDefault("config.kits.ultra.items", "276#KNOCKBACK:3*1");
+		this.getConfig().addDefault("config.kits.ultra.lore", "The Ultra class.");
+		this.getConfig().addDefault("config.kits.ultra.requires_money", true);
+		this.getConfig().addDefault("config.kits.ultra.requires_permission", false);
+		this.getConfig().addDefault("config.kits.ultra.money_amount", 200);
+		this.getConfig().addDefault("config.kits.ultra.permission_node", "minigames.kits.ultra");
 
 		
 		this.getConfig().options().copyDefaults(true);
